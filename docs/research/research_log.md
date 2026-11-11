@@ -1,11 +1,4 @@
-# Phase 0: Research Log
-
-**Project Title:** Football Match Performance & Player Injury Risk Management System  
-**Student Name:** Kirenga Ngamije Serge  
-**Student ID:** 12121  
-**Course:** INSY 8311 & Database Development with PL/SQL  
-
----
+# Research Log
 
 | # | Source (APA) | Type | Link | Key finding | Gap it shows |
 |---|---|---|---|---|---|
