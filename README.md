@@ -4,7 +4,7 @@ ID: 29098
 # Problem Statement: 
 Modern professional and amateur football clubs face challenges in managing player workload, match performance and injury risks. Tight match schedules, poor rotation planning and too much intense sprinting frequently lead to player fatigue and severe muscular injuries. Without a unified database system that helps track player performances and injury tendencies, coaches and medical staff struggle to make proper data backed selection decisions which causes high injury rates and poor match performance.
 # Objectives:
-The main objective of this project is to track football match stats, compute players' physical fatigue rates and prevent unsafe team selections. Other objectives include to achieve a well structured schema design & data normalization, PL/SQL automation, database security and interactive analytics.
+The main objective of this project is to build a fully normalized Oracle Database that tracks football match stats, computes players' physical fatigue rates and prevents unsafe team selections. Other objectives include to achieve a well structured schema design & data normalization, PL/SQL automation, database security and interactive analytics.
 # Data Source
 Dataset Name: European Soccer Database / Match & Player Performance Records
 Source: Kaggle
