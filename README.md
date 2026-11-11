@@ -8,7 +8,7 @@ The main objective of this project is to build a fully normalized Oracle Databas
 # Data Source
 Dataset Name: European Soccer Database / Match & Player Performance Records
 Source: Kaggle
-Dataset URL: Kaggle European Soccer Database
+Dataset URL: https://www.kaggle.com/datasets/hugomathien/soccer
 Data Volume: Over 25,000 match records, 10,000+ player attribute entries, and granular match event metrics.
 Licensing & Privacy: Released under Open Educational License. Contains fully anonymized player performance statistics with no private or sensitive personal identifying information.
 # Innovation Approach
