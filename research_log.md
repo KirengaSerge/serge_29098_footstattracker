@@ -1,0 +1,17 @@
+# Phase 0: Research Log
+
+**Project Title:** Football Match Performance & Player Injury Risk Management System  
+**Student Name:** Kirenga Ngamije Serge  
+**Student ID:** 12121  
+**Course:** INSY 8311 & Database Development with PL/SQL  
+
+---
+
+| # | Source (APA) | Type | Link | Key finding | Gap it shows |
+|---|---|---|---|---|---|
+| 1 | Abbott, A. (2023). *Workload monitoring and injury prevention in professional football*. Journal of Sports Analytics, 9(2), 115–128. | Research Paper | [https://doi.org/10.3233/JSA-230115](https://doi.org/10.3233/JSA-230115) | Cumulative high-intensity sprinting and fixture congestion directly correlate with dynamic muscle injury risks in athletes. | Focuses primarily on elite European clubs and lacks integrated database validation mechanisms to automate roster blocks for high-risk players. |
+| 2 | Reilly, T. (2005). *Science and football: evaluation of match data*. Journal of Sports Sciences, 23(6), 633–643. | Research Paper | [https://doi.org/10.1080/02640410400021271](https://doi.org/10.1080/02640410400021271) | Physical workload varies drastically across playing positions, requiring dynamic thresholds for fatigue tracking. | Relies on retrospective analysis rather than real-time transactional database triggers that prevent over-exertion during selection. |
+| 3 | FIFA. (2025). *Global Football Report: Technology and Data Standards in Modern Soccer*. FIFA Technical Center. | Report / Statistic | [https://www.fifa.com/technical/reports](https://www.fifa.com/technical/reports) | Over 70% of professional clubs use physical tracking tools, but 45% lack automated database auditing to enforce medical rest compliance. | Highlights a widespread failure to enforce automated business rules within central database schemas. |
+| 4 | Transfermarkt. (2026). *Football Database and Match Statistics Platform*. Transfermarkt GmbH & Co. KG. | Existing System | [https://www.transfermarkt.com](https://www.transfermarkt.com) | Provides comprehensive historical records of match lineups, player positions, injuries, and transfer histories. | Functions purely as a read-heavy reporting platform without database-level triggers to block invalid matchday selections based on injury status. |
+| 5 | Kaggle. (2025). *European Soccer Database: Match events and player metrics*. Kaggle Open Data. | Dataset | [https://www.kaggle.com/datasets/hugomathien/soccer](https://www.kaggle.com/datasets/hugomathien/soccer) | Contains over 25,000 matches, 10,000+ players, team attributes, and detailed match event data spanning multiple seasons. | The dataset is unnormalized for transaction processing and requires 3NF modeling, constraints, and custom PL/SQL auditing logic. |
+| 6 | Oracle Corporation. (2026). *Oracle Database PL/SQL Language Reference, Release 23c*. Oracle Documentation. | Technical Source | [https://docs.oracle.com/en/database/oracle/oracle-database/](https://docs.oracle.com/en/database/oracle/oracle-database/) | Outlines optimal architecture for stored procedures, triggers, custom exceptions, autonomous transactions, and audit logging. | Provides generic technical syntax that must be tailored specifically to sports analytics and medical compliance rules. |
